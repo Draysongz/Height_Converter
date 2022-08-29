@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Height Converter</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="heading"><span class="pro">PRO</span>HEIGHT </h1>
+        </div>
+        <div class="box">
+            <div class="box-contents">
+                <div id="input-field">
+                    <input type="number" required autocomplete="off" id="userInput" placeholder="Please enter a value">
+                </div>
+                <div class="input-Selection">
+                    <legend>Input unit :</legend>
+                    <br>
+                    <select name="input" id="inputUnit">
+                        <option value="">-- Select a unit --</option>
+                        <option value="m">Meter</option>
+                        <option value="ft">Feet</option>
+                        <option value="cm">Centimenter</option>
+                        <option value="inches">Inches</option>
+                    </select>
+                </div>
+                <div class="output-Selection">
+                    <legend>Output Unit :</legend>
+                    <br>
+                    <select name="Output" id="OutputUnit">
+                        <option value="">-- Select a unit --</option>
+                        <option value="m">Meter</option>
+                        <option value="ft">Feet</option>
+                        <option value="cm">Centimenter</option>
+                        <option value="inches">Inches</option>
+                    </select>
+                </div>
+                <div id="ouput-field">
+                    <legend>Your Result :</legend>
+                    <br>
+                    <input type="number" readonly required autocomplete="off" id="result" placeholder="Your result">
+                </div>
+                <button type="button" id="convertbtn">Convert</button>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
