@@ -64,7 +64,8 @@ function convert() {
   result.value = finalResult;
 } else if (inputUnit.value === "inches" && outputUnit.value === "m") {
   let finalResult;
-  finalResult = Math.round(userInput.value / 39.3701);
+  finalResult = Math.round(userInputm m m . 
+    .value / 39.3701);
   result.value = finalResult;
 
   //cm conversion
