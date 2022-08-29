@@ -33,48 +33,48 @@ function convert() {
 
 
 
-        
+
     }  //  feet conversion
-     else if (select.value === "ft" && newSelect.value === "inches") {
+     else if (inputUnit.value === "ft" && outputUnit.value === "inches") {
   let finalResult;
-  finalResult = Math.round(valueSpace.value * 12);
+  finalResult = Math.round(userInput.value * 12);
   result.value = finalResult;
-} else if (select.value === "inches" && newSelect.value === "ft") {
+} else if (inputUnit.value === "inches" && outputUnit.value === "ft") {
   let finalResult;
-  finalResult = Math.round(valueSpace.value / 12);
+  finalResult = Math.round(userInput.value / 12);
   result.value = finalResult;
 
 
 
  //  cm conversion
-} else if (select.value === "ft" && newSelect.value === "cm") {
+} else if (inputUnit.value === "ft" && outputUnit.value === "cm") {
   let finalResult;
-  finalResult = Math.round(valueSpace.value / 0.032808);
+  finalResult = Math.round(userInput.value / 0.032808);
   result.value = finalResult;
-} else if (select.value === "cm" && newSelect.value === "ft") {
+} else if (inputUnit.value === "cm" && outputUnit.value === "ft") {
   let finalResult;
-  finalResult = Math.round(valueSpace.value * 0.032808);
+  finalResult = Math.round(userInput.value * 0.032808);
   result.value = finalResult;
 
 
   //inches conversion
-} else if (select.value === "m" && newSelect.value === "inches") {
+} else if (inputUnit.value === "m" && outputUnit.value === "inches") {
   let finalResult;
-  finalResult = Math.round(valueSpace.value * 39.3701);
+  finalResult = Math.round(userInput.value * 39.3701);
   result.value = finalResult;
-} else if (select.value === "inches" && newSelect.value === "m") {
+} else if (inputUnit.value === "inches" && outputUnit.value === "m") {
   let finalResult;
-  finalResult = Math.round(valueSpace.value / 39.3701);
+  finalResult = Math.round(userInput.value / 39.3701);
   result.value = finalResult;
 
   //cm conversion
-} else if (select.value === "m" && newSelect.value === "cm") {
+} else if (inputUnit.value === "m" && outputUnit.value === "cm") {
   let finalResult;
-  finalResult = Math.round(valueSpace.value * 100);
+  finalResult = Math.round(userInput.value * 100);
   result.value = finalResult;
-} else if (select.value === "cm" && newSelect.value === "m") {
+} else if (inputUnit.value === "cm" && outputUnit.value === "m") {
   let finalResult;
-  finalResult = Math.round(valueSpace.value / 100);
+  finalResult = Math.round(userInput.value / 100);
   result.value = finalResult;
   //
 }
